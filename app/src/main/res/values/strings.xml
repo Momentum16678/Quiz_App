@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="timer_time">10</string>
+    <string name="admin_question">QUESTION</string>
+    <string name="bt_update">UPDATE</string>
+    <string name="bt_add">ADD</string>
+
+
+</resources>

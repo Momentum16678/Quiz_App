@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.quizapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/quiz_app_bg"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/quiz_app_bg"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuizApp">
+        <activity
+            android:name="com.example.quizapp.admin.QuestionDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.quizapp.admin.AdminQuestionActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.quizapp.admin.AdminActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.quizapp.ScoreActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.quizapp.TestActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.quizapp.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.quizapp.ResetPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.quizapp.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.quizapp.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.quizapp.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
